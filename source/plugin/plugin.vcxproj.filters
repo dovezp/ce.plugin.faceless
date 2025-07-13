@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Plugin">
+      <UniqueIdentifier>{f3b31f72-12f2-468a-828f-e14a255cfba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{ee469506-9075-41dc-a8d4-b6079442ee78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anti">
+      <UniqueIdentifier>{c7632cd4-2362-4fc7-b3b2-e2ee35855a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anti\ScreenCapture">
+      <UniqueIdentifier>{0275dce7-2596-45a1-b5e2-84dfac51a7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Settings">
+      <UniqueIdentifier>{60c91d67-6c60-4069-b3e2-ba7eca3ee57a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Logger">
+      <UniqueIdentifier>{7565cd5f-6527-43a9-8871-cd934f83804b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PluginExports.h">
+      <Filter>Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="PluginImports.h">
+      <Filter>Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="PluginDetails.h">
+      <Filter>Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies.h" />
+    <ClInclude Include="AntiScreenCapture.h">
+      <Filter>Anti\ScreenCapture</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugin.h">
+      <Filter>Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Utilities\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlugin.h">
+      <Filter>Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Utilities\Logger</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EntryPoint.cpp" />
+    <ClCompile Include="AntiScreenCapture.cpp">
+      <Filter>Anti\ScreenCapture</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugin.cpp">
+      <Filter>Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Utilities\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Utilities\Logger</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

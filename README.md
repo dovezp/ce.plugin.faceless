@@ -4,17 +4,56 @@
 
 Faceless is the next evolution in my Cheat Engine plugin suite, building on the success of [Nameless Plugin](https://github.com/dovezp/ce.plugin.nameless). This plugin is designed to protect Cheat Engine by making its interface invisible to windows screen capture techniques, including screenshots, screen recordings, and screen capture utilities.
 
-## Demo
+## Building
 
-Now you see me...
-<img width="1920" height="1080" alt="zXuuKykcxw" src="https://github.com/user-attachments/assets/99f08df7-ee43-4eb5-81c5-0a2ad2d08449" />
-Now you don’t!
-<img width="1920" height="1080" alt="ZbL8PRsgaQ" src="https://github.com/user-attachments/assets/ff304fa9-c559-4ec2-9429-8ec16f74381c" />
-Don't worry Cheat Engine is still fully usable and fully visible on the system... Just not to this screen capture!
+### Building Environment
 
-## Setup
+* Visual Studio 2022 with Windows SDK 10 & 11 for System Support of Windows 10 - 11
 
-You can get started with the Faceless Plugin by visiting the [develop](https://github.com/dovezp/ce.plugin.faceless/tree/develop) branch for more information.
+### System Requirement
+
+* Recommended Minimum Microsoft Windows 10 Enterprise LTSC (Version	10.0.19044 Build 19044)
+* Cheat Engine 7.5 / Cheat Engine 7.6
+
+### Installation
+
+#### Plugin Reminder
+
+* The x86 `faceless` build is compatible with `cheatengine-i386.exe`
+* The x64 `faceless` build is compatible with `cheatengine-x86_64.exe` and `cheatengine-x86_64-SSE4-AVX2.exe`
+* Both x86 and x64 `faceless` builds reference the same `faceless.ini` file
+
+#### Plugin Setup
+
+1. Extract the most recent [faceless](https://github.com/dovezp/ce.plugin.faceless/releases) build into the root directory for `Cheat Engine`
+    * The root directory where `cheatengine-i386.exe` / `cheatengine-x86_64.exe` is located
+2. If needed, configure the `faceless.ini` settings file
+3. Start Cheat Engine
+4. Go to Edit -> Settings -> Plugins -> Add new
+5. Add the faceless dll associated with the Cheat Engine executable (x64 or x86)
+6. Click the checkbox next to the faceless dll plugin name to enable 
+7. Click Okay to continue
+8. At this point the plugin should be running. 
+9. Give it a test and try to capture with the Snipping Tool.
+10. If you encounter an issue try restarting Cheat Engine or build with Debug mode and look at the output logs with dbgview. 
+
+### Configuration File Settings
+
+The configuration file contains various settings that control the behavior of the application.
+
+* `Enabled` (Boolean Value)
+  * Set this to `True` if you want the plugin to hide from screen capture. If set to `False`, the plugin will operate in a disabled state. In most cases you will just enable / disable the plugin via the Cheat Engine Plugin Setting Window.
+
+#### Default Configuration File Settings
+
+Here is an example of the default configuration in `faceless.ini`:
+
+```
+[Settings]
+Enabled = true
+```
+Feel free to modify these settings in the configuration file according to your requirements.
+
 
 ## License
 
