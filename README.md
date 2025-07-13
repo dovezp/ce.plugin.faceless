@@ -5,6 +5,11 @@
 
 ## Demo
 
+Now you see me...
+<img width="1920" height="1080" alt="zXuuKykcxw" src="https://github.com/user-attachments/assets/99f08df7-ee43-4eb5-81c5-0a2ad2d08449" />
+Now you dont
+<img width="1920" height="1080" alt="ZbL8PRsgaQ" src="https://github.com/user-attachments/assets/ff304fa9-c559-4ec2-9429-8ec16f74381c" />
+
 
 ### License
 
