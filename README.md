@@ -12,12 +12,15 @@ Now you don’t!
 <img width="1920" height="1080" alt="ZbL8PRsgaQ" src="https://github.com/user-attachments/assets/ff304fa9-c559-4ec2-9429-8ec16f74381c" />
 Don't worry Cheat Engine is still fully usable and fully visible on the system... Just not to this screen capture!
 
+## Setup
 
-### License
+You can get started with the Faceless Plugin by visiting the [develop](https://github.com/dovezp/ce.plugin.faceless/tree/develop) branch for more information.
+
+## License
 
 This project operates under the [Apache License 2.0 (Apache-2.0)](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)). Please refer to the [LICENSE.md](./LICENSE.md) file for detailed information.
 
-### Your Feedback Counts
+## Your Feedback Counts
 
 Your insights and feedback, whether positive or constructive, are immensely valuable. Your contributions guide the refinement of the Codex Plugin for future iterations.
 
