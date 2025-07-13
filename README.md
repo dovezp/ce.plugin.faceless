@@ -61,11 +61,11 @@ This project operates under the [Apache License 2.0 (Apache-2.0)](https://tldrle
 
 ## Your Feedback Counts
 
-Your insights and feedback, whether positive or constructive, are immensely valuable. Your contributions guide the refinement of the Codex Plugin for future iterations.
+Your insights and feedback, whether positive or constructive, are immensely valuable. Your contributions guide the refinement of this plugin for future iterations.
 
 Share your thoughts by opening an issue in the [repository's issue section](https://github.com/dovezp/ce.plugin.faceless/issues). Be sure to provide context and links when sharing your feedback.
 
-Thank you for being an essential part of the Codex Plugin's growth journey.
+Thank you for being an essential part of this plugin's growth journey.
 
 ---
 
