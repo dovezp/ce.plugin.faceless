@@ -1,10 +1,10 @@
 #pragma once
 
 #define PLUGIN_NAME					"faceless"
-#define PLUGIN_BUILD				__DATE__ " @ " __TIME__
+#define PLUGIN_BUILD				__DATE__ " @ " __TIME__ " v" PLUGIN_VERSION_STRING
 #define PLUGIN_HOST					"Cheat Engine"
 #define PLUGIN_TARGET				"6.8 - 7.6"
-#define PLUGIN_DESCRIPTION			"Faceless - The Anti-Screen Capture Plugin"
+#define PLUGIN_DESCRIPTION			"Faceless - The Anti-Screen Capture Plugin - " PLUGIN_BUILD " - " PLUGIN_REPOSITORY_URL " - " PLUGIN_REPOSITORY_LICENSE
 
 #define PLUGIN_ORGANIZATION_NAME		"dovezp"
 #define PLUGIN_ORGANIZATION_URL			"https://github.com/" PLUGIN_ORGANIZATION_NAME
