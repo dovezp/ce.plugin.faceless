@@ -28,6 +28,14 @@ Share your thoughts by opening an issue in the [repository's issue section](http
 
 Thank you for being an essential part of this plugin's growth journey.
 
+### Anti-AI Notice
+
+I do not support or condone the use of artificial intelligence (AI) tools in the creation or distribution of any content I produce. All work published by me is made by a human, and I will not grant permission for my content, artwork, writing, or any related materials to be used in training or generating AI models. 
+
+I request that no one uploads, scrapes, or utilizes my work in any AI datasets or projects. Any violation of this request goes against my explicit wishes.
+
+Thank you for respecting human creativity.
+
 ---
 
 <p align="center">
